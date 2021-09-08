@@ -3,3 +3,12 @@ body
 {
 font-family: 'Bitter', serif;
 }
+.container-center{
+margin:auto;
+max-width: 600px;
+
+}
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
