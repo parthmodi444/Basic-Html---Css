@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap');
+:root{
+    --primary-color:#7C3AED;
+}
 body
 {
 font-family: 'Bitter', serif;
@@ -11,4 +14,22 @@ max-width: 600px;
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
+}
+.link-primary
+{
+    background-color: var(--primary-color);
+color:white;
+border-radius: 0.5rem;
+padding:0px 1rem;
+}
+.link{
+    text-decoration: none;
+    padding:0px 1rem;
+}
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    padding:0px 1rem;
 }
