@@ -164,3 +164,6 @@ hr {
   padding-inline-start: 0px;
 }
 
+li{
+  list-style: none;
+}
